@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54A1CDB41D7D3FF4006739AE /* StickerPickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1CDB31D7D3FF4006739AE /* StickerPickerCollectionViewController.swift */; };
+		54A1CDB71D7D41D6006739AE /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1CDB61D7D41D6006739AE /* StickerCell.swift */; };
+		54A1CDB91D7D46F8006739AE /* AddStickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1CDB81D7D46F8006739AE /* AddStickersViewController.swift */; };
 		54BEFA381D79AF31007050FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BEFA371D79AF31007050FC /* Assets.xcassets */; };
 		54BEFA3F1D79AF31007050FC /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 54BEFA3E1D79AF31007050FC /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		54BEFA441D79AF31007050FC /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BEFA431D79AF31007050FC /* Messages.framework */; };
 		54BEFA471D79AF31007050FC /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BEFA461D79AF31007050FC /* MessagesViewController.swift */; };
 		54BEFA4A1D79AF31007050FC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BEFA481D79AF31007050FC /* MainInterface.storyboard */; };
 		54BEFA4C1D79AF31007050FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BEFA4B1D79AF31007050FC /* Assets.xcassets */; };
+		54BEFA711D79B5C9007050FC /* RPSStickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BEFA701D79B5C9007050FC /* RPSStickerBrowserViewController.swift */; };
+		54C6FDA81D7AF45C00A39F84 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FD9F1D7AF45C00A39F84 /* paper.png */; };
+		54C6FDA91D7AF45C00A39F84 /* paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FDA01D7AF45C00A39F84 /* paper@2x.png */; };
+		54C6FDAA1D7AF45C00A39F84 /* paper@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FDA11D7AF45C00A39F84 /* paper@3x.png */; };
+		54C6FDAB1D7AF45C00A39F84 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FDA21D7AF45C00A39F84 /* rock.png */; };
+		54C6FDAC1D7AF45C00A39F84 /* rock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FDA31D7AF45C00A39F84 /* rock@2x.png */; };
+		54C6FDAD1D7AF45C00A39F84 /* rock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FDA41D7AF45C00A39F84 /* rock@3x.png */; };
+		54C6FDAE1D7AF45C00A39F84 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FDA51D7AF45C00A39F84 /* scissors.png */; };
+		54C6FDAF1D7AF45C00A39F84 /* scissors@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FDA61D7AF45C00A39F84 /* scissors@2x.png */; };
+		54C6FDB01D7AF45C00A39F84 /* scissors@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C6FDA71D7AF45C00A39F84 /* scissors@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +53,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		54A1CDB31D7D3FF4006739AE /* StickerPickerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPickerCollectionViewController.swift; sourceTree = "<group>"; };
+		54A1CDB61D7D41D6006739AE /* StickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
+		54A1CDB81D7D46F8006739AE /* AddStickersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStickersViewController.swift; sourceTree = "<group>"; };
 		54BEFA341D79AF31007050FC /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54BEFA371D79AF31007050FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54BEFA391D79AF31007050FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +65,16 @@
 		54BEFA491D79AF31007050FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		54BEFA4B1D79AF31007050FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54BEFA4D1D79AF31007050FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54BEFA701D79B5C9007050FC /* RPSStickerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSStickerBrowserViewController.swift; sourceTree = "<group>"; };
+		54C6FD9F1D7AF45C00A39F84 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		54C6FDA01D7AF45C00A39F84 /* paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper@2x.png"; sourceTree = "<group>"; };
+		54C6FDA11D7AF45C00A39F84 /* paper@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper@3x.png"; sourceTree = "<group>"; };
+		54C6FDA21D7AF45C00A39F84 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		54C6FDA31D7AF45C00A39F84 /* rock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rock@2x.png"; sourceTree = "<group>"; };
+		54C6FDA41D7AF45C00A39F84 /* rock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rock@3x.png"; sourceTree = "<group>"; };
+		54C6FDA51D7AF45C00A39F84 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
+		54C6FDA61D7AF45C00A39F84 /* scissors@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scissors@2x.png"; sourceTree = "<group>"; };
+		54C6FDA71D7AF45C00A39F84 /* scissors@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scissors@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54A1CDB51D7D4071006739AE /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				54A1CDB61D7D41D6006739AE /* StickerCell.swift */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
 		54BEFA2D1D79AF30007050FC = {
 			isa = PBXGroup;
 			children = (
@@ -102,12 +136,33 @@
 		54BEFA451D79AF31007050FC /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
-				54BEFA461D79AF31007050FC /* MessagesViewController.swift */,
+				54A1CDB51D7D4071006739AE /* CollectionViewCells */,
+				54BEFA571D79B0DF007050FC /* Resources */,
 				54BEFA481D79AF31007050FC /* MainInterface.storyboard */,
 				54BEFA4B1D79AF31007050FC /* Assets.xcassets */,
 				54BEFA4D1D79AF31007050FC /* Info.plist */,
+				54BEFA461D79AF31007050FC /* MessagesViewController.swift */,
+				54BEFA701D79B5C9007050FC /* RPSStickerBrowserViewController.swift */,
+				54A1CDB31D7D3FF4006739AE /* StickerPickerCollectionViewController.swift */,
+				54A1CDB81D7D46F8006739AE /* AddStickersViewController.swift */,
 			);
 			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		54BEFA571D79B0DF007050FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54C6FD9F1D7AF45C00A39F84 /* paper.png */,
+				54C6FDA01D7AF45C00A39F84 /* paper@2x.png */,
+				54C6FDA11D7AF45C00A39F84 /* paper@3x.png */,
+				54C6FDA21D7AF45C00A39F84 /* rock.png */,
+				54C6FDA31D7AF45C00A39F84 /* rock@2x.png */,
+				54C6FDA41D7AF45C00A39F84 /* rock@3x.png */,
+				54C6FDA51D7AF45C00A39F84 /* scissors.png */,
+				54C6FDA61D7AF45C00A39F84 /* scissors@2x.png */,
+				54C6FDA71D7AF45C00A39F84 /* scissors@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +256,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C6FDAD1D7AF45C00A39F84 /* rock@3x.png in Resources */,
 				54BEFA4C1D79AF31007050FC /* Assets.xcassets in Resources */,
+				54C6FDA91D7AF45C00A39F84 /* paper@2x.png in Resources */,
+				54C6FDAB1D7AF45C00A39F84 /* rock.png in Resources */,
+				54C6FDB01D7AF45C00A39F84 /* scissors@3x.png in Resources */,
 				54BEFA4A1D79AF31007050FC /* MainInterface.storyboard in Resources */,
+				54C6FDAF1D7AF45C00A39F84 /* scissors@2x.png in Resources */,
+				54C6FDAC1D7AF45C00A39F84 /* rock@2x.png in Resources */,
+				54C6FDAA1D7AF45C00A39F84 /* paper@3x.png in Resources */,
+				54C6FDA81D7AF45C00A39F84 /* paper.png in Resources */,
+				54C6FDAE1D7AF45C00A39F84 /* scissors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54BEFA471D79AF31007050FC /* MessagesViewController.swift in Sources */,
+				54A1CDB71D7D41D6006739AE /* StickerCell.swift in Sources */,
+				54A1CDB91D7D46F8006739AE /* AddStickersViewController.swift in Sources */,
+				54BEFA711D79B5C9007050FC /* RPSStickerBrowserViewController.swift in Sources */,
+				54A1CDB41D7D3FF4006739AE /* StickerPickerCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +473,7 @@
 				54BEFA521D79AF31007050FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54BEFA541D79AF31007050FC /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +482,7 @@
 				54BEFA561D79AF31007050FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
